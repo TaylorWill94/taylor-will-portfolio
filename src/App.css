@@ -1,38 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+* {
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 .App {
-  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  font-family: sans-serif;
+  font-family: 16px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* // MEDIA QUERIES FOR SMALL SCREENS // */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (min-width: 376px) {
+  .App {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: "Lato", sans-serif;
+    font-family: 16px;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .nav {
+    text-align: center;
+    background-color: rgb(238, 198, 215);
+    position: sticky;
+    top: 0;
+    z-index: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .nav-items {
+    background: rgb(250, 211, 250);
+    color: black;
+  }
+
+  /* // LINK STYLING NAVIGATION FOR NAV // */
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 500ms;
+  }
+
+  a:hover {
+    font-size: 25px;
+    font-size-adjust: 20px;
+  }
+
+  /* // HOME PAGE STYLING // */
+
+  .home {
+    text-align: center;
+    padding-top: 20%;
+  }
+
+  .home-header {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .home-title {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  /* // PORTFOLIO BUTTON STYLING // */
+
+  .portfolio-btn {
+    padding: 10px;
+    width: 30%;
+    border-radius: 12px;
+    background: rgb(209, 248, 226);
+    transition-duration: 0.4s;
+  }
+
+  .portfolio-btn:hover {
+    background: white;
+  }
+
+  /* // MAKE PORTFOLIO BUTTON MOVE // */
+
+  #portfolio-link {
+    margin-right: 50%;
+    transition-duration: 0.4s;
+  }
+
+  #portfolio-link:hover {
+    margin-right: 55%;
+    background: white;
+  }
+
+  .github-icon {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .linkedin-icon {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .github {
+    border: none;
+  }
+
+  .linkedin {
+    border: none;
+  }
+
+  .skills {
+    text-align: center;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20%;
+    box-shadow: 10px 10px 10px 2px grey;
+  }
+
+  .budget-bae-header {
+    text-align: left;
+    color: black;
+  }
+
+  .budget-bae-img {
+      box-shadow: 12px 12px grey;
+  }
+
+  h5 {
+      text-align: left;
+  }
+
+  /* // ABOUT PAGE STYLING */
+
+  .about {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .about-img {
+    border-radius: 50px;
+  }
+
+
+
+  /* // PROJECT PAGE STYLING // */
+
+  .projects {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .contact {
+    text-align: center;
+    padding: 20px;
+  }
+
+  /* // FOOTER STYLING // */
+  .footer {
+    text-align: center;
+    padding: 30px;
+    transition: all 500ms;
+  }
+  .footer:hover {
+    font-size: 25px;
+    font-size-adjust: 20px;
   }
 }
