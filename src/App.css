@@ -74,8 +74,9 @@
   .portfolio-btn {
     padding: 15px;
     width: 30%;
-    border: 5px solid black;
+    border: 2px solid black;
     border-radius: 5px;
+    font-size: 16px;
     background: rgb(255, 255, 255);
     transition-duration: 0.4s;
   }
