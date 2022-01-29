@@ -36,6 +36,8 @@ function Home() {
       <br />
       <br />
       <br />
+      <br />
+      <br />
       <h1 className="skills-header">Skills</h1>
       <br />
       <article className="skills">
