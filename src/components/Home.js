@@ -43,6 +43,10 @@ function Home() {
       <br />
       <br />
       <br />
+      <div>
+        <br />
+        <br />
+        <br />
       <h1 className="skills-header">Skills</h1>
       <br />
       <article className="skills">
@@ -80,6 +84,9 @@ function Home() {
           of your finances.
         </h5>
       </article>
+      </div>
+      <br />
+      <br />
     </div>
   );
 }
