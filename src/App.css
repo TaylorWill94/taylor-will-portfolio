@@ -133,6 +133,7 @@
     border: none;
   }
 
+
   .skills-header {
     background-color: rgb(255, 255, 255);
   }
@@ -179,9 +180,25 @@
 
   /* // PROJECT PAGE STYLING // */
 
+  .portfolio-header {
+    background: rgb(255, 227, 255);
+  }
+
+.portfolio-sec {
+  padding: 10%;
+  border: 2px solid white;
+  box-shadow: 10px 10px 10px 2px grey;
+
+}
+
+.portfolio-img {
+  box-shadow: 10px 10px 10px 2px grey;
+}
+
   .projects {
     text-align: center;
     padding: 20px;
+    background-color: rgb(255, 227, 255);
   }
 
   .contact {
