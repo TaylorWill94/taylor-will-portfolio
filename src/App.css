@@ -133,7 +133,6 @@
     border: none;
   }
 
-
   .skills-header {
     background-color: rgb(255, 255, 255);
   }
@@ -141,6 +140,7 @@
   .skills {
     text-align: center;
     border: 1px solid black;
+    border-radius: 5px;
     margin: 20px;
     padding: 20%;
     box-shadow: 10px 10px 10px 2px grey;
@@ -157,6 +157,7 @@
 
   .budget-bae-img {
     box-shadow: 12px 12px grey;
+    border-radius: 5px;
   }
 
   h5 {
@@ -168,10 +169,16 @@
   .about {
     text-align: center;
     padding: 20px;
+    background-color: rgb(255, 227, 255);
+  }
+
+  .about-header {
+    background-color: rgb(255, 227, 255);
   }
 
   .about-blurb {
     line-height: 26px;
+    background-color: rgb(255, 227, 255);
   }
 
   .about-img {
@@ -184,16 +191,17 @@
     background: rgb(255, 227, 255);
   }
 
-.portfolio-sec {
-  padding: 10%;
-  border: 2px solid white;
-  box-shadow: 10px 10px 10px 2px grey;
+  .portfolio-sec {
+    padding: 10%;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 2px grey;
+  }
 
-}
-
-.portfolio-img {
-  box-shadow: 10px 10px 10px 2px grey;
-}
+  .portfolio-img {
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 2px grey;
+  }
 
   .projects {
     text-align: center;
@@ -201,9 +209,27 @@
     background-color: rgb(255, 227, 255);
   }
 
+  .tech-info {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  /* // CONTACT STYLING PAGE // */
+
   .contact {
     text-align: center;
     padding: 20px;
+    background-color: rgb(255, 227, 255);
+  }
+
+  .contact-header {
+    background-color: rgb(255, 227, 255);
+  }
+
+  .contact-info {
+    background-color: rgb(255, 227, 255);
   }
 
   /* // FOOTER STYLING // */

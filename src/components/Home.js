@@ -68,15 +68,19 @@ function Home() {
           href="https://taylor-budget-app-frontend.netlify.app/"
           alt="budget-bae-website"
         >
+          <a href='https://taylor-budget-app-frontend.netlify.app/' alt='budget-bae'>
           <h2 className="budget-bae-header">Budget Bae</h2>
+          </a>
         </a>
         <br />
+        <a href='https://taylor-budget-app-frontend.netlify.app/' alt='budget-bae'>
         <img
           className="budget-bae-img"
           src={budgetBae}
           width="200"
           alt={budgetBae}
         />
+        </a>
         <br />
         <br />
         <h5>

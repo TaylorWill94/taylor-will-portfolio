@@ -1,20 +1,38 @@
-import budget from './budgetBae.png';
+import budget from "./budgetBae.png";
 
 const Projects = () => {
   return (
     <main className="projects">
       <br />
       <br />
-      <h1 className='portfolio-header'>Portfolio</h1>
+      <h1 className="portfolio-header">Portfolio</h1>
       <br />
       <br />
-      <article className='portfolio-sec'>
-          <a href='https://taylor-budget-app-frontend.netlify.app/' alt='budget-bae'>
+      <article className="portfolio-sec">
+        <a
+          href="https://taylor-budget-app-frontend.netlify.app/"
+          alt="budget-bae"
+        >
           <h2>Budget Bae</h2>
-          </a>
-          <br />
-          <br />
-        <img className='portfolio-img' src={budget} width='200' alt={budget} />
+        </a>
+        <br />
+        <br />
+        <img className="portfolio-img" src={budget} width="200" alt={budget} />
+        <br />
+        <br />
+        <br />
+        <p>
+          Budget Bae allows you to budget and organize your finances in one
+          place.
+        </p>
+        <br />
+        <br />
+        <p>Technologies</p>
+        <br />
+        <p className="tech-info">JavaScript</p>
+        <p className="tech-info">HTML</p>
+        <p className="tech-info">CSS</p>
+        <p className="tech-info">Express</p>
       </article>
       <br />
       <br />
