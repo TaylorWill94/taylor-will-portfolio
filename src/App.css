@@ -56,6 +56,7 @@
     text-align: center;
     padding-top: 20%;
     background-color: rgb(255, 227, 255);
+    border-radius: 5px;
   }
 
   .home-header {
@@ -170,6 +171,7 @@
     text-align: center;
     padding: 20px;
     background-color: rgb(255, 227, 255);
+    border-radius: 5px;
   }
 
   .about-header {
@@ -207,6 +209,7 @@
     text-align: center;
     padding: 20px;
     background-color: rgb(255, 227, 255);
+    border-radius: 5px;
   }
 
   .tech-info {
@@ -222,6 +225,7 @@
     text-align: center;
     padding: 20px;
     background-color: rgb(255, 227, 255);
+    border-radius: 5px;
   }
 
   .contact-header {

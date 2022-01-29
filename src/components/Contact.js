@@ -4,7 +4,11 @@ const Contact = () => {
       <h1 className="contact-header">Contact</h1>
       <br />
       <br />
-      <p className="contact-info">I can be reached</p>
+      <p className="contact-info">Email
+      <br />
+      <br />
+      taylorjwill09@gmail.com
+      </p>
       <br />
       <br />
       <br />
