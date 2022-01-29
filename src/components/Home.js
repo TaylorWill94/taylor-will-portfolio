@@ -6,9 +6,10 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <div className="home">
+      <br />
       <h1 className="home-header">Taylor Williams</h1>
       <br />
-      <h2 className="home-title">Software Engineer</h2>
+      <h3 className="home-title">Full Stack Engineer</h3>
       <br />
       <Link id="portfolio-link" to="/projects">
         <button className="portfolio-btn">Portfolio</button>
@@ -19,7 +20,7 @@ function Home() {
       <section className="github-icon">
         <button className="github">
           <a href="https://github.com/TaylorWill94">
-            <img src={git} width="30" alt="github icon" />
+            <img className="github-icon-img" src={git} width="30" alt="github icon" />
           </a>
         </button>
       </section>
@@ -35,7 +36,7 @@ function Home() {
       <br />
       <br />
       <br />
-      <h1>Skills</h1>
+      <h1 className="skills-header">Skills</h1>
       <br />
       <article className="skills">
         JavaScript
@@ -49,7 +50,7 @@ function Home() {
       <br />
       <br />
       <br />
-      <h1>Projects</h1>
+      <h1 className="project-header">Projects</h1>
       <br />
       <article className="skills">
         <a

@@ -25,14 +25,12 @@
 
   .nav {
     text-align: center;
-    background-color: rgb(238, 198, 215);
     position: sticky;
     top: 0;
     z-index: 100%;
   }
 
   .nav-items {
-    background: rgb(250, 211, 250);
     color: black;
   }
 
@@ -41,12 +39,12 @@
   a {
     text-decoration: none;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     transition: all 500ms;
   }
 
   a:hover {
-    font-size: 25px;
+    font-size: 20px;
     font-size-adjust: 20px;
   }
 
@@ -55,30 +53,33 @@
   .home {
     text-align: center;
     padding-top: 20%;
+    background-color: rgb(255, 227, 255);
   }
 
   .home-header {
     text-align: left;
     margin-left: 20px;
+    background-color: rgb(255, 227, 255);
   }
 
   .home-title {
     text-align: left;
     margin-left: 20px;
+    background-color: rgb(255, 227, 255);
   }
 
   /* // PORTFOLIO BUTTON STYLING // */
 
   .portfolio-btn {
-    padding: 10px;
+    padding: 15px;
     width: 30%;
-    border-radius: 12px;
-    background: rgb(209, 248, 226);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
     transition-duration: 0.4s;
   }
 
   .portfolio-btn:hover {
-    background: white;
+    background: rgb(255, 244, 223);
   }
 
   /* // MAKE PORTFOLIO BUTTON MOVE // */
@@ -93,14 +94,19 @@
     background: white;
   }
 
+  /* // ICON STYLING HOME PAGE // */
+
   .github-icon {
     text-align: left;
     margin-left: 20px;
+    background-color: rgb(255, 227, 255);
+    border-radius: 50px;
   }
 
   .linkedin-icon {
     text-align: left;
     margin-left: 20px;
+    background-color: rgb(255, 227, 255);
   }
 
   .github {
@@ -111,6 +117,10 @@
     border: none;
   }
 
+  .skills-header {
+    background-color: rgb(255, 227, 255);
+  }
+
   .skills {
     text-align: center;
     border: 1px solid black;
@@ -119,17 +129,21 @@
     box-shadow: 10px 10px 10px 2px grey;
   }
 
+  .project-header {
+    background-color: rgb(255, 227, 255);
+  }
+
   .budget-bae-header {
     text-align: left;
     color: black;
   }
 
   .budget-bae-img {
-      box-shadow: 12px 12px grey;
+    box-shadow: 12px 12px grey;
   }
 
   h5 {
-      text-align: left;
+    text-align: left;
   }
 
   /* // ABOUT PAGE STYLING */
@@ -139,11 +153,13 @@
     padding: 20px;
   }
 
-  .about-img {
-    border-radius: 50px;
+  .about-blurb {
+    line-height: 26px;
   }
 
-
+  .about-img {
+    border-radius: 100px;
+  }
 
   /* // PROJECT PAGE STYLING // */
 
