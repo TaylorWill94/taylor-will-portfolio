@@ -59,6 +59,7 @@
   .home-header {
     text-align: left;
     margin-left: 20px;
+    font-size: 50px;
     background-color: rgb(255, 227, 255);
   }
 
@@ -73,6 +74,7 @@
   .portfolio-btn {
     padding: 15px;
     width: 30%;
+    border: 5px solid black;
     border-radius: 5px;
     background: rgb(255, 255, 255);
     transition-duration: 0.4s;
@@ -85,7 +87,7 @@
   /* // MAKE PORTFOLIO BUTTON MOVE // */
 
   #portfolio-link {
-    margin-right: 50%;
+    margin-right: 60%;
     transition-duration: 0.4s;
   }
 

@@ -7,6 +7,9 @@ function Home() {
   return (
     <div className="home">
       <br />
+      <br />
+      <br />
+      <br />
       <h1 className="home-header">Taylor Williams</h1>
       <br />
       <h3 className="home-title">Full Stack Engineer</h3>
@@ -30,6 +33,8 @@ function Home() {
           <img src={linkedin} width="30" alt="linked icon" />
         </button>
       </section>
+      <br />
+      <br />
       <br />
       <br />
       <br />
