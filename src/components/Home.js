@@ -85,6 +85,7 @@ function Home() {
         </a>
         <br />
         <br />
+        <br />
         <h5>
           Budget Bae is an application that helps you to organize and keep track
           of your finances.

@@ -17,7 +17,6 @@
 /* // MEDIA QUERIES FOR SMALL SCREENS // */
 
 @media screen and (min-width: 376px) {
-
   .App {
     display: grid;
     grid-template-columns: 1fr;
@@ -85,6 +84,10 @@
   }
 
   /* // PORTFOLIO BUTTON STYLING // */
+
+    .portfolio-sec-btn {
+    background-color: rgb(255, 227, 255)
+  } 
 
   .portfolio-btn {
     padding: 15px;
@@ -224,7 +227,6 @@
     width: 30%;
     background: rgb(255, 227, 255);
     border-radius: 5px;
-
   }
   .tech-info {
     border: 1px solid black;
@@ -266,9 +268,7 @@
   }
 }
 
-
 @media screen and (min-width: 798px) {
-
   .App {
     display: grid;
     grid-template-columns: 1fr;
@@ -338,7 +338,7 @@
   /* // PORTFOLIO BUTTON STYLING // */
 
   .portfolio-sec-btn {
-    margin-left: 45%;
+    margin-left: 38%;
     background-color: rgb(255, 227, 255);
   }
 
@@ -483,7 +483,6 @@
     width: 30%;
     background: rgb(255, 227, 255);
     border-radius: 5px;
-
   }
   .tech-info {
     border: 1px solid black;
@@ -526,7 +525,6 @@
 }
 
 @media screen and (min-width: 987px) {
-
   .App {
     display: grid;
     grid-template-columns: 1fr;
@@ -596,7 +594,7 @@
   /* // PORTFOLIO BUTTON STYLING // */
 
   .portfolio-sec-btn {
-    margin-left: 39%;
+    margin-left: 38%;
     background-color: rgb(255, 227, 255);
   }
 
@@ -744,7 +742,6 @@
     width: 30%;
     background: rgb(255, 227, 255);
     border-radius: 5px;
-
   }
   .tech-info {
     border: 1px solid black;
@@ -787,7 +784,6 @@
 }
 
 @media screen and (min-width: 1278px) {
-
   .App {
     display: grid;
     grid-template-columns: 1fr;
@@ -1006,7 +1002,6 @@
     width: 30%;
     background: rgb(255, 227, 255);
     border-radius: 5px;
-
   }
   .tech-info {
     border: 1px solid black;
