@@ -5,6 +5,8 @@ const Footer = () => {
             <br />
             <br />
             <p>Linkedin GitHub</p>
+            <br />
+            <p className="copyright">COPYRIGHT © 2022 TAYLOR WILLIAMS</p>
         </section>
     )
 }

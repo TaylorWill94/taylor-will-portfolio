@@ -212,6 +212,19 @@
     border-radius: 5px;
   }
 
+  .budget-bae-btns {
+    padding: 10px;
+  }
+
+  .budget-btns {
+    padding: 20px;
+    margin: 10px;
+    font-size: 12px;
+    width: 30%;
+    background: rgb(255, 227, 255);
+    border-radius: 5px;
+
+  }
   .tech-info {
     border: 1px solid black;
     border-radius: 5px;
@@ -245,5 +258,9 @@
   .footer:hover {
     font-size: 25px;
     font-size-adjust: 20px;
+  }
+
+  .copyright {
+    font-size: 10px;
   }
 }
