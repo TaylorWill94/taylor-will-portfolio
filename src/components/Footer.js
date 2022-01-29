@@ -6,6 +6,7 @@ const Footer = () => {
             <br />
             <p>Linkedin GitHub</p>
             <br />
+            <br />
             <p className="copyright">COPYRIGHT © 2022 TAYLOR WILLIAMS</p>
         </section>
     )
