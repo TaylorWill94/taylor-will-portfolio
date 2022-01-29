@@ -14,9 +14,11 @@ function Home() {
       <br />
       <h3 className="home-title">Full Stack Engineer</h3>
       <br />
+      <div className="portfolio-sec-btn">
       <Link id="portfolio-link" to="/projects">
         <button className="portfolio-btn">Portfolio</button>
       </Link>
+      </div>
       <br />
       <br />
       <br />
