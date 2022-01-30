@@ -9,12 +9,11 @@ function About() {
       <br />
       <br />
       <p className="about-blurb">
-        Hi! My name is Taylor and I am a Software Engineer with a strong adoration for
+        I am a Full Stack Software Engineer with a strong adoration for
         for fashion and food. I enjoy trying new restaurants throughout the
         city. I am passionate about creating user-friendly applications that aim
-        to solve a problem! I'm currently looking for a junior SWE role where I
-        can make a difference in the tech industry, while also being able to
-        grow and learn from those around me.
+        to solve a problem! I'm currently looking for a software engineer role where I
+        can make a difference in the tech industry!
       </p>
       <br />
       <br />

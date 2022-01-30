@@ -1,6 +1,6 @@
 import git from "./github.png";
 import linkedin from "./linkedin.png";
-import budgetBae from "./budgetBae.png";
+import budget from "./budget.png";
 import { Link } from "react-router-dom";
 
 function Home() {
@@ -78,9 +78,9 @@ function Home() {
         <a href='https://taylor-budget-app-frontend.netlify.app/' alt='budget-bae'>
         <img
           className="budget-bae-img"
-          src={budgetBae}
+          src={budget}
           width="200"
-          alt={budgetBae}
+          alt={budget}
         />
         </a>
         <br />
