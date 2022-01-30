@@ -6,10 +6,10 @@ const Contact = () => {
       <h1 className="contact-header">Contact</h1>
       <br />
       <br />
-      <p className="contact-info">Email
+      <p className="contact-info">EMAIL
       <br />
       <br />
-      taylorjwill09@gmail.com
+      TAYLORJWILL09@GMAIL.COM
       </p>
       <br />
       <br />
