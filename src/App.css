@@ -686,6 +686,8 @@
   /* // ABOUT PAGE STYLING */
 
   .about {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
     text-align: center;
     padding: 20px;
     background-color: rgb(255, 227, 255);
@@ -693,18 +695,31 @@
   }
 
   .about-header {
+    grid-column: 2;
+    grid-row: 1;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
     background-color: rgb(255, 227, 255);
   }
 
   .about-blurb {
+    grid-column: 1 / 3;
+    grid-row: 2;
     line-height: 28px;
     font-size: 22px;
+    margin: 10%;
     background-color: rgb(255, 227, 255);
   }
 
   .about-img {
+    grid-row: 2;
     border-radius: 100px;
     width: 300px;
+  }
+
+  .about-skills {
+    grid-column: 1 / 4;
   }
 
   /* // PROJECT PAGE STYLING // */
