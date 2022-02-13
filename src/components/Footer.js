@@ -1,3 +1,5 @@
+import linkedin from "./linked.webp";
+
 const Footer = () => {
   return (
     <section className="footer">
@@ -8,9 +10,11 @@ const Footer = () => {
         href="https://www.linkedin.com/in/taylor-williams-a0683795/"
         alt="linkedin link"
       >
-        <p>Linkedin</p>
+        <img src={linkedin} width="25" alt={linkedin} />
       </a>
-      <p>GitHub</p>
+      <a href="https://github.com/TaylorWill94" alt="github link">
+        <p>GitHub</p>
+      </a>
       <br />
       <br />
       <p className="copyright">COPYRIGHT © 2022 TAYLOR WILLIAMS</p>

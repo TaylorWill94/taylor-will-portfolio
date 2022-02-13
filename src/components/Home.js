@@ -15,9 +15,9 @@ function Home() {
       <h3 className="home-title">Full Stack Engineer</h3>
       <br />
       <div className="portfolio-sec-btn">
-      <Link id="portfolio-link" to="/projects">
-        <button className="portfolio-btn">Portfolio</button>
-      </Link>
+        <Link id="portfolio-link" to="/projects">
+          <button className="portfolio-btn">Portfolio</button>
+        </Link>
       </div>
       <br />
       <br />
@@ -25,7 +25,12 @@ function Home() {
       <section className="github-icon">
         <button className="github">
           <a href="https://github.com/TaylorWill94">
-            <img className="github-icon-img" src={git} width="30" alt="github icon" />
+            <img
+              className="github-icon-img"
+              src={git}
+              width="30"
+              alt="github icon"
+            />
           </a>
         </button>
       </section>
@@ -49,48 +54,54 @@ function Home() {
         <br />
         <br />
         <br />
-      <h1 className="skills-header">Skills</h1>
-      <br />
-      <article className="skills">
-        JavaScript
+        <h1 className="skills-header">Skills</h1>
         <br />
-        HTML
+        <article className="skills">
+          JavaScript
+          <br />
+          HTML
+          <br />
+          CSS
+          <br />
+          React
+        </article>
         <br />
-        CSS
         <br />
-        React
-      </article>
-      <br />
-      <br />
-      <br />
-      <h1 className="project-header">Projects</h1>
-      <br />
-      <article className="skills">
-        <a
-          href="https://taylor-budget-app-frontend.netlify.app/"
-          alt="budget-bae-website"
-        >
-          <a href='https://taylor-budget-app-frontend.netlify.app/' alt='budget-bae'>
-          <h2 className="budget-bae-header">Budget Bae</h2>
+        <br />
+        <h1 className="project-header">Projects</h1>
+        <br />
+        <article className="skills">
+          <a
+            href="https://taylor-budget-app-frontend.netlify.app/"
+            alt="budget-bae-website"
+          >
+            <a
+              href="https://taylor-budget-app-frontend.netlify.app/"
+              alt="budget-bae"
+            >
+              <h2 className="budget-bae-header">Budget Bae</h2>
+            </a>
           </a>
-        </a>
-        <br />
-        <a href='https://taylor-budget-app-frontend.netlify.app/' alt='budget-bae'>
-        <img
-          className="budget-bae-img"
-          src={budget}
-          width="200"
-          alt={budget}
-        />
-        </a>
-        <br />
-        <br />
-        <br />
-        <h5>
-          Budget Bae is an application that helps you to organize and keep track
-          of your finances.
-        </h5>
-      </article>
+          <br />
+          <a
+            href="https://taylor-budget-app-frontend.netlify.app/"
+            alt="budget-bae"
+          >
+            <img
+              className="budget-bae-img"
+              src={budget}
+              width="200"
+              alt={budget}
+            />
+          </a>
+          <br />
+          <br />
+          <br />
+          <h5>
+            Budget Bae is an application that helps you to organize and keep
+            track of your finances.
+          </h5>
+        </article>
       </div>
       <br />
       <br />
