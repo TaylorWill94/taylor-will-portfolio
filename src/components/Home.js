@@ -1,5 +1,5 @@
 import git from "./github.png";
-import linkedin from "./linkedin.png";
+import linkedin from "./linked.webp";
 import budget from "./budget.png";
 import { Link } from "react-router-dom";
 

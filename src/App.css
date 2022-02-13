@@ -635,6 +635,10 @@
     border-radius: 50px;
   }
 
+  .github-icon-img {
+    background: transparent;
+  }
+
   .linkedin-icon {
     text-align: center;
     margin-left: 20px;
@@ -643,10 +647,16 @@
 
   .github {
     border: none;
+    width: 10%;
+    border-radius: 12px;
+    padding: 10px;
   }
 
   .linkedin {
     border: none;
+    width: 10%;
+    border-radius: 12px;
+    padding: 10px;
   }
 
   .skills-header {
