@@ -1,4 +1,5 @@
 import linkedin from "./linked.webp";
+import git from "./github.png";
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
         <img src={linkedin} width="25" alt={linkedin} />
       </a>
       <a href="https://github.com/TaylorWill94" alt="github link">
-        <p>GitHub</p>
+        <img src={git} width="25" alt={git} />
       </a>
       <br />
       <br />
