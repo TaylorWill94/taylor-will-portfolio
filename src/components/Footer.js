@@ -10,6 +10,7 @@ const Footer = () => {
       <a
         href="https://www.linkedin.com/in/taylor-williams-a0683795/"
         target="_blank"
+        rel="noreferrer"
         alt="linkedin link"
       >
         <img src={linkedin} width="25" alt={linkedin} />
@@ -17,6 +18,7 @@ const Footer = () => {
       <a
         href="https://github.com/TaylorWill94"
         target="_blank"
+        rel="noreferrer"
         alt="github link"
       >
         <img src={git} width="25" alt={git} />

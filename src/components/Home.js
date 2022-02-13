@@ -24,7 +24,11 @@ function Home() {
       <br />
       <section className="github-icon">
         <button className="github">
-          <a href="https://github.com/TaylorWill94" target="_blank">
+          <a
+            href="https://github.com/TaylorWill94"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               className="github-icon-img"
               src={git}
@@ -40,6 +44,7 @@ function Home() {
           <a
             href="https://www.linkedin.com/in/taylor-williams-a0683795/"
             target="_blank"
+            rel="noreferrer"
           >
             <img src={linkedin} width="30" alt="linked icon" />
           </a>
