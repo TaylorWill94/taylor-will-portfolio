@@ -1,4 +1,4 @@
-const Contact = () => {
+function Contact() {
   return (
     <main className="contact">
       <br />
