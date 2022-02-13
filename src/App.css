@@ -132,10 +132,16 @@
 
   .github {
     border: none;
+    width: 10%;
+    border-radius: 12px;
+    padding: 10px;
   }
 
   .linkedin {
     border: none;
+    width: 10%;
+    border-radius: 12px;
+    padding: 10px;
   }
 
   .skills-header {
@@ -387,10 +393,16 @@
 
   .github {
     border: none;
+    width: 10%;
+    border-radius: 12px;
+    padding: 10px;
   }
 
   .linkedin {
     border: none;
+    width: 10%;
+    border-radius: 12px;
+    padding: 10px;
   }
 
   .skills-header {
