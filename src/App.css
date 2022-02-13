@@ -938,11 +938,11 @@
   }
 
   .github {
-    border: none;
+    border: 1px solid black;
   }
 
   .linkedin {
-    border: none;
+    border: 1px solid black;
   }
 
   .skills-header {
