@@ -184,6 +184,8 @@
 
   .about-blurb {
     line-height: 26px;
+    text-align: left;
+    font-size: 14px;
     background-color: rgb(255, 227, 255);
   }
 
