@@ -14,6 +14,267 @@
   background-color: white;
 }
 
+@media screen and (min-width: 344px) {
+  .App {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: "Lato", sans-serif;
+    font-family: 16px;
+    background-color: white;
+  }
+
+  .nav {
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100%;
+  }
+
+  .nav-items {
+    color: black;
+  }
+
+  /* // LINK STYLING NAVIGATION FOR NAV // */
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 500ms;
+  }
+
+  a:hover {
+    font-size: 20px;
+    font-size-adjust: 20px;
+  }
+
+  /* // HOME PAGE STYLING // */
+
+  .home {
+    text-align: center;
+    padding-top: 20%;
+    background-color: rgb(255, 227, 255);
+    border-radius: 5px;
+  }
+
+  .home-header {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 50px;
+    background-color: rgb(255, 227, 255);
+    -webkit-animation: fadein 5s;
+  }
+
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .home-title {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 25px;
+    background-color: rgb(255, 227, 255);
+  }
+
+  /* // PORTFOLIO BUTTON STYLING // */
+
+  .portfolio-sec-btn {
+    background-color: rgb(255, 227, 255);
+  }
+
+  .portfolio-btn {
+    padding: 15px;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    background: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+  }
+
+  .portfolio-btn:hover {
+    background: rgb(255, 244, 223);
+  }
+
+  /* // MAKE PORTFOLIO BUTTON MOVE // */
+
+  #portfolio-link {
+    margin-right: 60%;
+    transition-duration: 0.4s;
+  }
+
+  #portfolio-link:hover {
+    margin-right: 55%;
+    background: white;
+  }
+
+  /* // ICON STYLING HOME PAGE // */
+
+  .github-icon {
+    text-align: left;
+    margin-left: 20px;
+    background-color: rgb(255, 227, 255);
+    border-radius: 50px;
+  }
+
+  .linkedin-icon {
+    text-align: left;
+    margin-left: 20px;
+    background-color: rgb(255, 227, 255);
+  }
+
+  .github {
+    border: 1px solid black;
+    width: 20%;
+    border-radius: 12px;
+    padding: 10px;
+  }
+
+  .linkedin {
+    border: 1px solid black;
+    width: 20%;
+    border-radius: 12px;
+    padding: 10px;
+  }
+
+  .skills-header {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .skills {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20%;
+    box-shadow: 10px 10px 10px 2px grey;
+  }
+
+  .project-header {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .budget-bae-header {
+    text-align: center;
+    color: black;
+  }
+
+  .budget-bae-img {
+    box-shadow: 12px 12px grey;
+    border-radius: 5px;
+  }
+
+  h5 {
+    text-align: center;
+  }
+
+  /* // ABOUT PAGE STYLING */
+
+  .about {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(255, 227, 255);
+    border-radius: 5px;
+  }
+
+  .about-header {
+    background-color: rgb(255, 227, 255);
+  }
+
+  .about-blurb {
+    line-height: 26px;
+    text-align: left;
+    font-size: 14px;
+    background-color: rgb(255, 227, 255);
+  }
+
+  .about-img {
+    border-radius: 100px;
+  }
+
+  /* // PROJECT PAGE STYLING // */
+
+  .portfolio-header {
+    background: rgb(255, 227, 255);
+  }
+
+  .portfolio-sec {
+    padding: 10%;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 2px grey;
+  }
+
+  .portfolio-img {
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 2px grey;
+  }
+
+  .projects {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(255, 227, 255);
+    border-radius: 5px;
+  }
+
+  .budget-bae-btns {
+    padding: 10px;
+  }
+
+  .budget-btns {
+    padding: 10px;
+    margin: 10px;
+    font-size: 12px;
+    width: 30%;
+    background: rgb(255, 227, 255);
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  .tech-info {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  /* // CONTACT STYLING PAGE // */
+
+  .contact {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(255, 227, 255);
+    border-radius: 5px;
+  }
+
+  .contact-header {
+    background-color: rgb(255, 227, 255);
+  }
+
+  .contact-info {
+    background-color: rgb(255, 227, 255);
+  }
+
+  /* // FOOTER STYLING // */
+  .footer {
+    text-align: center;
+    padding: 30px;
+    transition: all 500ms;
+  }
+  .footer:hover {
+    font-size: 25px;
+    font-size-adjust: 20px;
+  }
+
+  .copyright {
+    font-size: 10px;
+  }
+}
+
 /* // MEDIA QUERIES FOR SMALL SCREENS // */
 
 @media screen and (min-width: 376px) {
