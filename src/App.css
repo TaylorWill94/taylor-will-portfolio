@@ -234,6 +234,7 @@
     font-size: 12px;
     width: 30%;
     background: rgb(255, 227, 255);
+    border: 1px solid black;
     border-radius: 5px;
   }
   .tech-info {
