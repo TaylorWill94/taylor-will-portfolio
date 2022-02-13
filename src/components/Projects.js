@@ -11,6 +11,8 @@ const Projects = () => {
       <article className="portfolio-sec">
         <a
           href="https://taylor-budget-app-frontend.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
           alt="budget-bae"
         >
           <h2>Budget Bae</h2>
@@ -27,12 +29,22 @@ const Projects = () => {
         </p>
         <br />
         <div className="budget-bae-btns">
-          <a href='https://taylor-budget-app-frontend.netlify.app/' alt='budget-bae-project' >
-        <button className="budget-btns">Live Site</button>
-        </a>
-        <a href='https://github.com/TaylorWill94/budget-app-frontend' alt='budget-bae-github' >
-        <button className="budget-btns">Github</button>
-        </a>
+          <a
+            href="https://taylor-budget-app-frontend.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+            alt="budget-bae-project"
+          >
+            <button className="budget-btns">Live Site</button>
+          </a>
+          <a
+            href="https://github.com/TaylorWill94/budget-app-frontend"
+            target="_blank"
+            rel="noreferrer"
+            alt="budget-bae-github"
+          >
+            <button className="budget-btns">Github</button>
+          </a>
         </div>
         <br />
         <p>Technologies</p>

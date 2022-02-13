@@ -83,10 +83,14 @@ function Home() {
         <article className="skills">
           <a
             href="https://taylor-budget-app-frontend.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
             alt="budget-bae-website"
           >
             <a
               href="https://taylor-budget-app-frontend.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
               alt="budget-bae"
             >
               <h2 className="budget-bae-header">Budget Bae</h2>
@@ -95,6 +99,8 @@ function Home() {
           <br />
           <a
             href="https://taylor-budget-app-frontend.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
             alt="budget-bae"
           >
             <img

@@ -131,14 +131,14 @@
   }
 
   .github {
-    border: none;
+    border: 1px solid black;
     width: 10%;
     border-radius: 12px;
     padding: 10px;
   }
 
   .linkedin {
-    border: none;
+    border: 1px solid black;
     width: 10%;
     border-radius: 12px;
     padding: 10px;
@@ -392,14 +392,14 @@
   }
 
   .github {
-    border: none;
+    border: 1px solid black;
     width: 10%;
     border-radius: 12px;
     padding: 10px;
   }
 
   .linkedin {
-    border: none;
+    border: 1px solid black;
     width: 10%;
     border-radius: 12px;
     padding: 10px;
@@ -658,14 +658,14 @@
   }
 
   .github {
-    border: none;
+    border: 1px solid black;
     width: 10%;
     border-radius: 12px;
     padding: 10px;
   }
 
   .linkedin {
-    border: none;
+    border: 1px solid black;
     width: 10%;
     border-radius: 12px;
     padding: 10px;
