@@ -74,6 +74,12 @@ function Home() {
           CSS
           <br />
           React
+          <br />
+          PostgresSQL
+          <br />
+          Express
+          <br />
+          Node.js
         </article>
         <br />
         <br />

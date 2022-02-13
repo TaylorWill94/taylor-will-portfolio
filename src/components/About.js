@@ -30,6 +30,7 @@ function About() {
         <p>React</p>
         <p>PostgresSQL</p>
         <p>Express</p>
+        <p>Node.js</p>
         <br />
       </section>
       <br />
