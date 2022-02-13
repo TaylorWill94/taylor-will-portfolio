@@ -9,11 +9,16 @@ const Footer = () => {
       <br />
       <a
         href="https://www.linkedin.com/in/taylor-williams-a0683795/"
+        target="_blank"
         alt="linkedin link"
       >
         <img src={linkedin} width="25" alt={linkedin} />
       </a>
-      <a href="https://github.com/TaylorWill94" alt="github link">
+      <a
+        href="https://github.com/TaylorWill94"
+        target="_blank"
+        alt="github link"
+      >
         <img src={git} width="25" alt={git} />
       </a>
       <br />
